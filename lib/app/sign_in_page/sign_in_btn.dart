@@ -3,7 +3,7 @@ import 'package:steps_tracker/common_widgets/custom_raised_btn.dart';
 
 class SignInBtn extends CustomRaisedBtn {
   SignInBtn({
-    String text,
+    @required String text,
     Color color,
     Color textColor,
     double height,

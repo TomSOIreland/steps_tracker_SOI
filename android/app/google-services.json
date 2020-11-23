@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "668761753064",
+    "firebase_url": "https://runs-d852d.firebaseio.com",
+    "project_id": "runs-d852d",
+    "storage_bucket": "runs-d852d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668761753064:android:3cda18915182ed3da5d05d",
+        "android_client_info": {
+          "package_name": "ie.specialolympics.steps_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668761753064-vhrl449brbbp1bg8kgdpsat2p6l38tbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.specialolympics.steps_tracker",
+            "certificate_hash": "996df9fc432d3d51190516134930cdba86553ffc"
+          }
+        },
+        {
+          "client_id": "668761753064-ctcb835favdn40jd8u6lu2ch11uff9pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLr4AvQI30zxaG5KSX7D0ecCAoGbSzkmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668761753064-ctcb835favdn40jd8u6lu2ch11uff9pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

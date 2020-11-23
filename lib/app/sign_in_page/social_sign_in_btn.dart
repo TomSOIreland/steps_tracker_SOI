@@ -3,8 +3,8 @@ import 'package:steps_tracker/common_widgets/custom_raised_btn.dart';
 
 class SocialSignInBtn extends CustomRaisedBtn {
   SocialSignInBtn({
-    String assetName,
-    String text,
+    @required String assetName,
+    @required String text,
     Color color,
     Color textColor,
     double height,
