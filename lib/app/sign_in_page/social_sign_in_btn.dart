@@ -10,22 +10,22 @@ class SocialSignInBtn extends CustomRaisedBtn {
     double height,
     VoidCallback onPressed,
   }) : super(
-    child: Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: <Widget>[
-        Image.asset(assetName),
-        Text(
-          text,
-        style: TextStyle(color: textColor,fontSize: 15.0),
-        ),
-        Opacity(
-         opacity: 0.0,
-         child: Image.asset(assetName),
-        ),
-      ],
-    ),
-    color: color,
-    height: height,
-    onPressed: onPressed,
-  );
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Image.asset(assetName),
+              Text(
+                text,
+                style: TextStyle(color: textColor, fontSize: 15.0),
+              ),
+              Opacity(
+                opacity: 0.0,
+                child: Image.asset(assetName),
+              ),
+            ],
+          ),
+          color: color,
+          height: height,
+          onPressed: onPressed,
+        );
 }
