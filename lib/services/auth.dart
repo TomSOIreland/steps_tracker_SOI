@@ -7,7 +7,7 @@ abstract class AuthBase {
   Future<User> signInAnonymously();
   Future<User> signInWithGoogle();
   Future<void> signOut();
-
+  
 }
 
 class Auth implements AuthBase{
@@ -25,6 +25,7 @@ class Auth implements AuthBase{
     final userCredential = await _firebaseAuth.signInAnonymously();
     return userCredential.user;
   }
+  
   @override
   Future<User> signInWithGoogle() async {
     final googleSignIn = GoogleSignIn();

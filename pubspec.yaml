@@ -27,6 +27,7 @@ dependencies:
   firebase_core: 0.5.2
   firebase_auth: 0.18.3
   google_sign_in: 4.5.6
+  firebase_auth_oauth: 0.2.2
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +52,7 @@ flutter:
   - images/facebook-logo.png
   - images/google-logo.png
   - images/soi_logo.png
+  - images/microsoft-logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
